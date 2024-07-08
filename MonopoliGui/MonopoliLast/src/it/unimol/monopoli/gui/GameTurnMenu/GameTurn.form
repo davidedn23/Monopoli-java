@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="it.unimol.monopoli.gui.GameTurnMenu.GameTurn">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="10" column-count="11" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="249" y="670" width="1391" height="544"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="8937e" class="javax.swing.JLabel" binding="currentPlayerLabel">
+        <constraints>
+          <grid row="0" column="9" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Turno giocatore:"/>
+        </properties>
+      </component>
+      <component id="fc490" class="javax.swing.JButton" binding="corsoAteneoButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Corso Ateneo"/>
+        </properties>
+      </component>
+      <component id="84062" class="javax.swing.JButton" binding="viaAccademiaButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Via Accademia"/>
+        </properties>
+      </component>
+      <component id="f59ca" class="javax.swing.JButton" binding="viaButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2308"/>
+          <enabled value="true"/>
+          <foreground color="-58601"/>
+          <text value="Via!"/>
+        </properties>
+      </component>
+      <component id="e0cc6" class="javax.swing.JButton" binding="vicoloCortoButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <hideActionText value="false"/>
+          <text value="Vicolo Corto"/>
+        </properties>
+      </component>
+      <component id="34518" class="javax.swing.JButton" binding="vicoloStrettoButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <text value="Vicolo Stretto"/>
+        </properties>
+      </component>
+      <component id="596a1" class="javax.swing.JButton" binding="stazioneSudButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-4477440"/>
+          <text value="Stazione Sud"/>
+        </properties>
+      </component>
+      <component id="602e1" class="javax.swing.JButton" binding="vialeVesuvioButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Viale Vesuvio"/>
+        </properties>
+      </component>
+      <component id="43ad3" class="javax.swing.JButton" binding="prigioneButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="100"/>
+            <preferred-size width="130" height="100"/>
+            <maximum-size width="130" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2308"/>
+          <enabled value="true"/>
+          <foreground color="-16776047"/>
+          <text value="Prigione"/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <component id="62cd7" class="javax.swing.JButton" binding="terminaTurnoButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Termina turno"/>
+        </properties>
+      </component>
+      <component id="a62e" class="javax.swing.JButton" binding="compraProprietaButton">
+        <constraints>
+          <grid row="7" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Compra proprietà"/>
+        </properties>
+      </component>
+      <component id="b5e61" class="javax.swing.JButton" binding="pagaTassaButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Paga tassa"/>
+        </properties>
+      </component>
+      <component id="357bc" class="javax.swing.JButton" binding="pagaAffittoButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Paga affitto"/>
+        </properties>
+      </component>
+      <component id="4d709" class="javax.swing.JButton" binding="vaiInPrigioneButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Vai in prigione"/>
+        </properties>
+      </component>
+      <component id="61034" class="javax.swing.JButton" binding="vialeTraianoButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Viale Traiano"/>
+        </properties>
+      </component>
+      <component id="965ad" class="javax.swing.JButton" binding="parcoDellaVittoriaButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Parco della Vittoria"/>
+        </properties>
+      </component>
+      <component id="fdbc2" class="javax.swing.JButton" binding="stazioneOvestButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-4477440"/>
+          <text value="Stazione Ovest"/>
+        </properties>
+      </component>
+      <component id="dd5b1" class="javax.swing.JButton" binding="vialeDeiGiardiniButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Viale dei Giardini"/>
+        </properties>
+      </component>
+      <component id="7b68d" class="javax.swing.JButton" binding="largoAugustoButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Largo Augusto"/>
+        </properties>
+      </component>
+      <component id="f2928" class="javax.swing.JButton" binding="corsoImperoButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="7" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Corso Impero"/>
+        </properties>
+      </component>
+      <component id="9d9ea" class="javax.swing.JButton" binding="vialeCostantinoButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Viale Costantino"/>
+        </properties>
+      </component>
+      <component id="bf040" class="javax.swing.JButton" binding="viaRomaButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Via Roma"/>
+        </properties>
+      </component>
+      <component id="b6637" class="javax.swing.JButton" binding="stazioneNordButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-4477440"/>
+          <text value="Stazione Nord"/>
+        </properties>
+      </component>
+      <component id="b9938" class="javax.swing.JButton" binding="largoColomboButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Largo Colombo"/>
+        </properties>
+      </component>
+      <component id="1a26" class="javax.swing.JButton" binding="corsoMagellanoButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Corso Magellano"/>
+        </properties>
+      </component>
+      <component id="7953e" class="javax.swing.JButton" binding="viaMarcoPoloButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Via Marco Polo"/>
+        </properties>
+      </component>
+      <component id="40b43" class="javax.swing.JButton" binding="corsoRaffaelloButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Corso Raffaello"/>
+        </properties>
+      </component>
+      <component id="688c2" class="javax.swing.JButton" binding="viaVerdiButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Via Verdi"/>
+        </properties>
+      </component>
+      <component id="dd706" class="javax.swing.JButton" binding="piazzaUniversitaButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Piazza Università"/>
+        </properties>
+      </component>
+      <component id="d5f5a" class="javax.swing.JButton" binding="stazioneEstButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-4477440"/>
+          <text value="Stazione Est"/>
+        </properties>
+      </component>
+      <component id="1dd32" class="javax.swing.JButton" binding="piazzaGiulioCesareButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Piazza Giulio Cesare"/>
+        </properties>
+      </component>
+      <component id="d9408" class="javax.swing.JButton" binding="vaiInPrigioneButton1">
+        <constraints>
+          <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-16776047"/>
+          <text value="Vai in &#10;prigione!"/>
+        </properties>
+      </component>
+      <hspacer id="6380d">
+        <constraints>
+          <grid row="1" column="8" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="87f51" class="javax.swing.JButton" binding="bastioniGranSassoButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalTextPosition value="11"/>
+          <text value="Bastioni Gran Sasso"/>
+        </properties>
+      </component>
+      <component id="e5c4c" class="javax.swing.JButton" binding="vialeMonterosaButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Viale Monterosa"/>
+        </properties>
+      </component>
+      <scrollpane id="8ee0d">
+        <constraints>
+          <grid row="1" column="9" row-span="4" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a4ff7" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+            <constraints/>
+            <properties>
+              <editable value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="ccd2e" class="javax.swing.JButton" binding="lanciaIDadiButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="3" row-span="2" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="100"/>
+            <preferred-size width="150" height="100"/>
+            <maximum-size width="150" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Lancia i dadi!"/>
+        </properties>
+      </component>
+      <component id="c7b58" class="javax.swing.JFormattedTextField" binding="timerTextField">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="25"/>
+            <preferred-size width="150" height="25"/>
+            <maximum-size width="150" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <horizontalAlignment value="0"/>
+          <text value="180"/>
+        </properties>
+      </component>
+      <component id="af547" class="javax.swing.JLabel" binding="timerLabel">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Tempo rimasto:"/>
+        </properties>
+      </component>
+      <component id="12dfe" class="javax.swing.JButton" binding="piazzaDanteButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="130" height="50"/>
+            <preferred-size width="130" height="50"/>
+            <maximum-size width="130" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Piazza Dante"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

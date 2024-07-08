@@ -1,0 +1,12 @@
+it.unimol.monopoli.app
+it.unimol.monopoli.app.Cronometro
+it.unimol.monopoli.app.CustomExceptions
+it.unimol.monopoli.gui
+it.unimol.monopoli.gui.GameTurnMenu
+it.unimol.monopoli.gui.LoadGameMenu
+it.unimol.monopoli.gui.MainMenu
+it.unimol.monopoli.gui.NewGameMenu
+it.unimol.monopoli.gui.NewPlayerMenu
+it.unimol.monopoli.gui.PrisonerMenu
+it.unimol.monopoli.gui.RentPaymentMenu
+it.unimol.monopoli.gui.TaxPaymentMenu
